@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 1082px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header .right-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .left-section{
+    color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header .left-section .title{
+    width: 84%;
+    height: 44vh;
+    color: white;
+    line-height: 45px;
+}
+.header .left-section .title h1{
+    font-size: 60px;
+    font-family: "alata";
+    margin-top: 30px;
+}
+.header .left-section .title h2{
+    font-size: 60px;
+    font-family: "alata";
+    margin-left: 50px;
+
+}
+.header .left-section .title p{
+    font-size: 15px;
+    font-family: "montserrat";
+    margin-top: 40px;
+}
+.header .left-section .title h3{
+    font-size: 15px;
+    font-family: "montserrat";
+}
+
+
+.header .right-section figure{
+    position: relative;
+    width: 435px;
+    height: 508px;
+    background-color: white;
+    border-radius: 15%;
+}
+
+.header .right-section figure img{
+    position: absolute;
+    object-fit: cover;
+    border-radius: 15%;
+    width: 100%;
+    height: 100%;
+
+}
+.main-section{
+    width: 100%;
+}
+
+
+.main-section .App{
+   /* width: 100%;
+    height: 600px;
+    background-color: white;*/
+    background-color: var(--transparent-linen);
+    padding: 69px 87px 97px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.logiciels {
+    color: var(--black);
+    margin-bottom: 48px;
+    margin-left: 137px;
+    font-family: var(--poppins-40-regular-family);
+    font-size: var(--poppins-40-regular-size);
+    font-weight: var(--poppins-40-regular-weight);
+    line-height: var(--poppins-40-regular-line-height);
+  }
+  .flex-wrapper-seven {
+    padding: 0 0 0 1px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+  }
+  .flex-wrapper-seven:not(:last-of-type) {
+    margin-bottom: 36px;
+  }
+  .group {
+    width: 74px;
+    height: 65px;
+    margin-top: 26px;
+    margin-right: 26px;
+  }
+  .flex-wrapper-thirteen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .photoshop {
+    color: var(--black);
+    margin-left: 36px;
+    font-family: var(--poppins-24-regular-family);
+    font-size: var(--poppins-24-regular-size);
+    font-weight: var(--poppins-24-regular-weight);
+    line-height: var(--poppins-24-regular-line-height);
+  }
+  .flex-wrapper-one {
+    background-color: rgb(182, 178, 178);
+    width: 100%;
+    height: 17px;
+    border-radius: 10px;
+    padding: 0 44px 0 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .rectangle-8 {
+    width: 260px;
+    height: 17px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .group-two {
+    width: 74px;
+    height: 65px;
+    margin-top: 25px;
+    margin-right: 62px;
+  }
+  .relative-wrapper-one {
+    position: relative;
+  }
+  .flex-wrapper-two {
+    background-color: var(--gainsboro);
+    border-radius: 10px;
+    padding: 0 44px 0 0;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -155px;
+    bottom: -16px;
+  }
+  .illustrator {
+    color: var(--black);
+    position: relative;
+    font-family: var(--poppins-24-regular-family);
+    font-size: var(--poppins-24-regular-size);
+    font-weight: var(--poppins-24-regular-weight);
+    line-height: var(--poppins-24-regular-line-height);
+  }
+  .flex-wrapper-nine {
+    margin-bottom: 43px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .logosadobe-after-effects {
+    width: 74px;
+    height: 65px;
+    margin-top: 25px;
+    margin-right: 63px;
+  }
+  .flex-wrapper-three {
+    background-color: var(--gainsboro);
+    border-radius: 10px;
+    padding: 0 105px 0 0;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -123px;
+    bottom: -16px;
+  }
+  .rectangle-12 {
+    width: 199px;
+    height: 17px;
+    background-color: var(--black-2);
+    border-radius: 10px;
+  }
+  .flex-wrapper-ten {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .group-three {
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url("https://static.overlay-tech.com/assets/9aa272ed-1ab9-44fa-b33a-5270b7fc6169.svg");
+    margin-top: 26px;
+    margin-right: 27px;
+    padding: 7.11px 17.82px 7.11px 17.63px;
+    display: flex;
+    align-items: center;
+  }
+  .skill-icons-figma-dark0 {
+    width: 38.55px;
+    height: 50.78px;
+  }
+  .flex-wrapper-four {
+    background-color: var(--gainsboro);
+    border-radius: 10px;
+    padding: 0 39px 0 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .rectangle-14 {
+    width: 265px;
+    height: 17px;
+    background-color: var(--black-2);
+    border-radius: 10px;
+  }
+  .logosadobe-indesign {
+    width: 74px;
+    height: 65px;
+    margin-top: 26px;
+    margin-right: 27px;
+  }
+  .flex-wrapper-five {
+    background-color: var(--gainsboro);
+    border-radius: 10px;
+    padding: 0 84px 0 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .rectangle-16 {
+    width: 220px;
+    height: 17px;
+    background-color: var(--black-2);
+    border-radius: 10px;
+  }
+  
+
+.main-section .skills
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+
+}
+.main-section .project{
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+.main-section .contact-section{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section .contact-section .title{
+    color: white;
+    width: 100%;
+    font-size:xx-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section .contact-section .contact-infos{
+    width: 100%;
+    color: white;
+    padding-top: 30px;
+}
+
+.main-section .contact-section .contact-infos .left-section{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 15px;
+
+}
+
+.main-section .contact-section .contact-infos .left-section p{
+    line-height: 25px;
+    font-size: 15px;
+}
+.main-section .contact-section .contact-infos .left-section p span{
+  font-weight: bold;
+}
+.main-section .contact-section .contact-infos .right-section{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-section .contact-section .dowload-cvBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-section .contact-section .dowload-cvBox .btm-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 20px 0;
+
+}
+
+.main-section .contact-section .dowload-cvBox .btm-container button{
+    width: 50%;
+    border-radius: 40px;
+    border: none;
+    height: 37px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
+.main-section .contact-section .dowload-cvBox .profile{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main-section .contact-section .dowload-cvBox .profile figure{
+    width: 40%;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.main-section .contact-section .dowload-cvBox .profile figure img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.skills .title h2{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.skills .skills-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.skills .skills-box .box{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(172, 77, 124);
+    margin: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.skills .skills-box .box .title span img{
+    width: 26px;
+}
+
+.skills .skills-box .box .title{
+  width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.skills .skills-box .box p:nth-child(2){
+    padding: 20px;
+    color: white;
+}
+.social{
+  margin-top: 32px;
+}
+
+
+.project .title{
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.project .project-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.project .project-box .box{
+    width: 70%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.project .project-box .box img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.Follow{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 40px 0;
+}
+.Follow img{
+  width: 51px;
+  margin: 30px 0 0 0;
+}
+
+@media screen and (min-width:700px){
+  .header .right-section{
+    width: 50%;
+  
+}
+
+.header .left-section{
+    color: white;
+    width: 50%;
+}
+
+.skills .skills-box{
+  width: 100%;
+   display: flex;
+  }
+
+.skills .skills-box .box{
+  width: 30%;
+  }
+
+  .project .project-box .box{
+    width: 40%;
+
+}
+
+.main-section .contact-section .contact-infos {
+  display: flex;
+  align-items: center;
+}
+
+.main-section .contact-section .contact-infos .left-section{
+  width: 50%;
+
+
+}
+
+
+.main-section .contact-section .contact-infos .right-section{
+  width: 50%;
+}
+
+.main-section .contact-section .dowload-cvBox {
+  width: 100%;
+  display: flex;
+  flex-direction:initial;
+}
+
+.main-section .contact-section .dowload-cvBox .btm-container{
+  width: 50%;
+
+
+}
+
+.main-section .contact-section .dowload-cvBox .profile{
+  width: 50%;
+
+  
+}
+
+}
